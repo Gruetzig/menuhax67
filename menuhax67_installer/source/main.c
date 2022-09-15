@@ -18,10 +18,6 @@ const char *dblue="\x1b[34;0m";
 const char *white="\x1b[37;1m";
 
 Result menuhax67(){
-	if(iscfw){
-		printf("You already have cfw!\n");
-		return 0;
-	}
 	Result res=0;
 	u32 base_addr=0;  //0x3093d0
 	u8 region=0xff;
